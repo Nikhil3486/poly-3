@@ -4,7 +4,7 @@
 This project is part of the Metacrafters Poly Proof Advanced Course, Module 3. 
 &nbsp;
 
-In this project, we have to build a circuit using `circom`, compile a `Verifier Contract` and deploy it to the `Mumbai Testnet`
+In this project, we have to build a circuit using `circom`, compile a `Verifier Contract` and deploy it to the `Sepolia Testnet`
 
 &nbsp;
 
@@ -111,7 +111,7 @@ The circuit has been verified for the following input `A: 0` and `B: 1`
     ```
 - Deploy the verifier Contract
     ```
-    npx hardhat run scripts/deploy.ts --network mumbai
+    npx hardhat run scripts/deploy.ts --network Sepolia
     ```
     &nbsp;
 The script will compile the contract and deploy it onto the Mumbai Testnet. The address of the contract will be printed on the console. 
